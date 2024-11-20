@@ -1,6 +1,6 @@
 javascript:
 
-var DELAY = 1;
+var DELAY = 1000000000000;
 var autoClickerStyleElement = document.createElement("style");
 autoClickerStyleElement.innerHTML="*{cursor: crosshair !important;}";
 document.body.appendChild(autoClickerStyleElement);
